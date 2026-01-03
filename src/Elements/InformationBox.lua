@@ -13,6 +13,7 @@ function Paragraph:New(Config)
 
 	local InformationBox = require(Components.Element)(Config.Title, Config.Content, Paragraph.Container, false)
 	InformationBox.Frame.BackgroundTransparency = 1
+	InformationBox.Container.BackgroundTransparency = 1
 	InformationBox.Border.Transparency = 0.6
 
 	return InformationBox
