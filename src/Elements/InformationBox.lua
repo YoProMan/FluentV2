@@ -5,7 +5,7 @@ local Creator = require(Root.Creator)
 
 local InformationBox = {}
 InformationBox.__index = InformationBox
-InformationBox.__type = "InformationBox"
+InformationBox.__type = "Paragraph"
 
 function Paragraph:New(Config)
 	assert(Config.Title, "Paragraph - Missing Title")
